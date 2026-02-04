@@ -60,11 +60,27 @@ const PROJECTS = [
   //   code: 'https://github.com/kunjdesai/BreastCancerPrediction'
   // }
   {
+    title: 'Code And Chaos',
+    desc: "Code & Chaos is a real-time competitive coding platform with Socket.IO matchmaking, JWT-based authentication, and a scalable MERN architecture.",
+    ss: '/image2.png',
+    tech: ['ReactJS', 'NodeJS', 'ExpressJS', 'MongoDB', 'JWT', 'bcrypt', 'REST APIs','Socket.io'],
+    live: 'https://bpit-sih.vercel.app/',
+    code: 'https://github.com/pandeyayush260804/ChaosAndChaos'
+  },
+  {
+    title: 'Campus-Connect',
+    desc: "Campus Connect is a full-stack campus networking platform enabling student interaction, event sharing, and role-based access using the MERN stack",
+    ss: '/image.png',
+    tech: ['ReactJS', 'NodeJS', 'ExpressJS', 'MongoDB', 'JWT', 'bcrypt', 'REST APIs'],
+    live: 'https://bpit-sih.vercel.app/',
+    code: 'https://github.com/pandeyayush260804/bpit-sih'
+  },
+  {
     title: 'Quizzz-Whizzz',
     desc: "Quizzz-Whizzz is a full-stack MERN-based quiz application that lets users create, manage, and attempt quizzes with instant scoring and secure authentication.",
     ss: '/qw.png',
     tech: ['ReactJS', 'NodeJS', 'ExpressJS', 'MongoDB', 'JWT', 'bcrypt', 'REST APIs'],
-    live: 'https://dino-game-pi-nine.vercel.app/',
+    live: 'https://quizzz-whizzz-final-id2e2cb4c-ayush-pandeys-projects-c697cb09.vercel.app/',
     code: 'https://github.com/pandeyayush260804/quizzz_whizzz'
   },
   {
@@ -121,7 +137,7 @@ export default function Projects() {
           🚀 Projects
         </motion.h2>
         <p className="text-gray-400 mb-10">
-          A collection of my major works — blending research, AI innovation.
+          A collection of my major works — blending research, innovation & representation my skills.
         </p>
 
         <div className="projects-grid" style={{ display: 'grid', gap: 24, gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }}>
