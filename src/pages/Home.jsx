@@ -5,7 +5,7 @@ import '../index.css'
 
 
 // 🖼️ Import Assets
-import photo from '../../public/photo.jpg'
+import photo1 from '../../public/photo1.jpg'
 import githubLogo from '../../public/github.png'
 import linkedinLogo from '../../public/linkedin.png'
 import gmailLogo from '../../public/gmail.png'
@@ -61,7 +61,7 @@ export default function Home() {
             className="photo-frame"
           >
             <motion.img
-              src={photo}
+              src={photo1}
               alt="Ayush Pandey"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
