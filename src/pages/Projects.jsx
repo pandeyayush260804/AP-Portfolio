@@ -60,7 +60,7 @@ const PROJECTS = [
   //   code: 'https://github.com/kunjdesai/BreastCancerPrediction'
   // }
   {
-    title: 'Code And Chaos',
+    title: 'Code And Chaos⚔️',
     desc: "Code & Chaos is a real-time competitive coding platform with Socket.IO matchmaking, JWT-based authentication, and a scalable MERN architecture.",
     ss: '/image2.png',
     tech: ['ReactJS', 'NodeJS', 'ExpressJS', 'MongoDB', 'JWT', 'bcrypt', 'REST APIs','Socket.io'],
@@ -68,7 +68,7 @@ const PROJECTS = [
     code: 'https://github.com/pandeyayush260804/ChaosAndChaos'
   },
   {
-    title: 'Campus-Connect',
+    title: 'Campus-Connect💻',
     desc: "Campus Connect is a full-stack campus networking platform enabling student interaction, event sharing, and role-based access using the MERN stack",
     ss: '/image.png',
     tech: ['ReactJS', 'NodeJS', 'ExpressJS', 'MongoDB', 'JWT', 'bcrypt', 'REST APIs'],
